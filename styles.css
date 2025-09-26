@@ -1,0 +1,72 @@
+/* * The 'body' selector styles the entire page.
+ * We're setting a font, a soft background color, and centering the content.
+*/
+body {
+    font-family: 'Inter', sans-serif; /* A modern, readable font */
+    background-color: #f4f4f9; /* A light grey background */
+    color: #333; /* A dark grey for text, easier on the eyes than pure black */
+    margin: 0; /* Removes default browser margin */
+    padding: 20px; /* Adds some space around the content */
+    display: flex; /* Using flexbox to help with centering */
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+    min-height: 100vh; /* Makes the body at least the full height of the viewport */
+}
+
+/* * We created a 'container' class to hold our content.
+ * This gives it a nice card-like effect with a white background and shadow.
+*/
+.container {
+    max-width: 800px; /* Sets a maximum width for our content */
+    width: 100%; /* Ensures the container is responsive */
+    background: white; /* A clean white background for the content area */
+    padding: 40px; /* Spacing inside the container */
+    border-radius: 12px; /* Rounds the corners */
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+/* * Styling for the main heading (your site title).
+ * We want it to be large and impactful.
+*/
+h1 {
+    font-size: 3rem; /* Makes the text much larger */
+    font-weight: 700; /* Bolder text */
+    color: #2c3e50; /* A stylish, deep blue color */
+    text-align: center; /* Centers the title */
+    margin-bottom: 20px; /* Adds space below the title */
+}
+
+/*
+ * Styling for the navigation bar container.
+ * We'll use flexbox to arrange the links neatly.
+*/
+nav {
+    display: flex; /* This turns on flexbox */
+    justify-content: center; /* Centers the links within the nav bar */
+    gap: 20px; /* Creates space between the links */
+    padding: 20px 0; /* Adds vertical spacing */
+    border-top: 1px solid #e0e0e0; /* A light line to separate it from the title */
+}
+
+/*
+ * Styling for the navigation links themselves.
+ * This is where we make them look like clean, clickable buttons.
+*/
+nav a {
+    text-decoration: none; /* Removes the default underline */
+    color: #3498db; /* An attractive blue for the links */
+    font-size: 1.1rem; /* Slightly larger font size */
+    font-weight: bold;
+    padding: 10px 15px; /* Adds space around the text to make them easier to click */
+    border-radius: 8px; /* Rounds the corners of the links */
+    transition: background-color 0.3s, color 0.3s; /* Creates a smooth animation on hover */
+}
+
+/*
+ * The ':hover' pseudo-class defines styles for when a user's mouse is over an element.
+ * This provides important visual feedback.
+*/
+nav a:hover {
+    background-color: #3498db; /* The background becomes blue on hover */
+    color: white; /* The text becomes white on hover */
+}
