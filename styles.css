@@ -2,8 +2,8 @@
  * We're setting a font, a soft background color, and centering the content.
 */
 body {
-    font-family: 'Inter', sans-serif; /* A modern, readable font */
-    background-color: #f4f4f9; /* A light grey background */
+    font-family: 'Times New Roman', Times, serif; /* A modern, readable font */
+    background-color: #f9f9f4; /* A light grey background */
     color: #333; /* A dark grey for text, easier on the eyes than pure black */
     margin: 0; /* Removes default browser margin */
     padding: 20px; /* Adds some space around the content */
