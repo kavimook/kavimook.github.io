@@ -3,7 +3,7 @@
 */
 body {
     font-family: 'Times New Roman', Times, serif; /* A modern, readable font */
-    background-color: hsl(254, 83%, 12%); /* A light grey background */
+    background-color: hsl(253, 73%, 7%); /* A light grey background */
     color: #c4a9bc; /* A dark grey for text, easier on the eyes than pure black */
     margin: 0; /* Removes default browser margin */
     padding: 20px; /* Adds some space around the content */
@@ -29,9 +29,9 @@ body {
  * We want it to be large and impactful.
 */
 h1 {
-    font-size: 4rem; /* Makes the text much larger */
-    font-weight: 700; /* Bolder text */
-    color: #2c3e50; /* A stylish, deep blue color */
+    font-size: 5rem; /* Makes the text much larger */
+    font-weight: 500; /* Bolder text */
+    color: #dce2e9; /* A stylish, deep blue color */
     margin-bottom: 20px; /* Adds space below the title */
     /* -- Add these lines for positioning -- */
     position: absolute;
@@ -57,7 +57,7 @@ nav {
 */
 nav a {
     text-decoration: none; /* Removes the default underline */
-    color: #3498db; /* An attractive blue for the links */
+    color: #db34cd; /* An attractive blue for the links */
     font-size: 1.1rem; /* Slightly larger font size */
     font-weight: bold;
     padding: 10px 15px; /* Adds space around the text to make them easier to click */
@@ -70,6 +70,6 @@ nav a {
  * This provides important visual feedback.
 */
 nav a:hover {
-    background-color: #3498db; /* The background becomes blue on hover */
+    background-color: #6634db; /* The background becomes blue on hover */
     color: white; /* The text becomes white on hover */
 }
