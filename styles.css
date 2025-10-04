@@ -45,7 +45,9 @@ h1 {
 */
 nav {
     display: flex; /* This turns on flexbox */
-    justify-content: center; /* Centers the links within the nav bar */
+    position: absolute;
+    top: 25%;      /* 1/5 of the page height from the top */
+    left: 33.33%;  /* 1/3 of the page width from the left */
     gap: 20px; /* Creates space between the links */
     padding: 20px 0; /* Adds vertical spacing */
     border-top: 1px solid #e0e0e0; /* A light line to separate it from the title */
