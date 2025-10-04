@@ -29,7 +29,7 @@ body {
  * We want it to be large and impactful.
 */
 h1 {
-    font-size: 5rem; /* Makes the text much larger */
+    font-size: 3rem; /* Makes the text much larger */
     font-weight: 500; /* Bolder text */
     color: #dce2e9; /* A stylish, deep blue color */
     margin-bottom: 20px; /* Adds space below the title */
